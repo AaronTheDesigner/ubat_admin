@@ -48,6 +48,11 @@
     "author": {
       "via": "articles",
       "model": "writer"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
